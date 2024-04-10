@@ -1,0 +1,18 @@
+{
+   "type": "crafting_shaped",
+   "pattern": [
+      "HD"
+   ],
+   "key": {
+      "H": {
+         "item": {"id": "minecraft:netherite_helmet", "tag": "{CharacterName:\"shiroko\"}"}
+      },
+      "D": {
+         "item": "minecraft:diamond"
+      }
+  },
+   "result": {
+     "item": "minecraft:sugar",
+     "count": 4
+  }
+}

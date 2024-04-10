@@ -1,0 +1,16 @@
+{
+   "replace": false,
+   "values":[
+      "minecraft:netherite_boots",
+      "minecraft:diamond_boots",
+      "minecraft:iron_boots",
+      "minecraft:chainmail_boots",
+
+      "betternether:nether_ruby_boots",
+      "betternether:cincinnasite_boots",
+
+      "ad_astra:space_boots",
+      "ad_astra:netherite_space_boots",
+      "ad_astra:jet_suit_boots"
+   ]
+}

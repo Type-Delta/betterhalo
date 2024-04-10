@@ -1,0 +1,173 @@
+{
+   "condition": "minecraft:alternative",
+   "terms": [
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"alice\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"aru\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"azusa\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"hasumi\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"hina\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"hoshino\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"izuna\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"koharu\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"miku\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"shiroko\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"tsurugi\"}"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "head": {
+                  "items": [
+                     "minecraft:netherite_helmet"
+                  ],
+                  "nbt": "{CharacterName:\"yuuka\"}"
+               }
+            }
+         }
+      }
+   ]
+}

@@ -1,0 +1,17 @@
+{
+   "replace": false,
+   "values":[
+      "minecraft:netherite_leggings",
+      "minecraft:diamond_leggings",
+      "minecraft:iron_leggings",
+      "minecraft:chainmail_leggings",
+      "minecraft:leather_leggings",
+
+      "betternether:nether_ruby_leggings",
+      "betternether:cincinnasite_leggings",
+
+      "ad_astra:space_pants",
+      "ad_astra:netherite_space_pants",
+      "ad_astra:jet_suit_pants"
+   ]
+}

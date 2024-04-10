@@ -1,0 +1,38 @@
+{
+   "condition": "minecraft:alternative",
+   "terms": [
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "chest": {
+                  "tag": "betterhalo:armor/chest"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "legs": {
+                  "tag": "betterhalo:armor/leggings"
+               }
+            }
+         }
+      },
+      {
+         "condition": "minecraft:entity_properties",
+         "entity": "this",
+         "predicate": {
+            "equipment": {
+               "feet": {
+                  "tag": "betterhalo:armor/boots"
+               }
+            }
+         }
+      }
+   ]
+}
