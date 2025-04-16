@@ -23,7 +23,7 @@ execute as @a[predicate=betterhalo:wears_halo] run function betterhalo:sub/give_
 
 
 
-
+### Handling Armor Punishment ###
 execute as @a[tag=!wear_armor_punishment,tag=!can_wear_armor] run execute if predicate betterhalo:wears_halo run execute if predicate betterhalo:wears_armor run function betterhalo:sub/wear_armor_punishment
 execute as @a[tag=wear_armor_punishment] run execute if predicate betterhalo:wears_halo run execute unless predicate betterhalo:wears_armor run function betterhalo:sub/wear_armor_pardon
 execute as @a[tag=wear_armor_punishment] run execute unless predicate betterhalo:wears_halo run function betterhalo:sub/wear_armor_pardon
@@ -31,7 +31,7 @@ execute as @a[tag=wear_armor_punishment] run execute unless predicate betterhalo
 
 
 
-
+#### Halo Light Up ####
 execute as @a run execute unless data entity @s {Inventory:[{id:"minecraft:netherite_helmet",tag:{CharacterName:"alice",Lit: 1b}}]} run execute if data entity @s {Inventory:[{id:"minecraft:netherite_helmet", tag:{CharacterName:"alice"}}]} run function betterhalo:lit_halo/alice
 
 execute as @a run execute unless data entity @s {Inventory:[{id:"minecraft:netherite_helmet",tag:{CharacterName:"aru",Lit: 1b}}]} run execute if data entity @s {Inventory:[{id:"minecraft:netherite_helmet", tag:{CharacterName:"aru"}}]} run function betterhalo:lit_halo/aru
