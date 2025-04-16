@@ -26,20 +26,20 @@ execute as @s[tag=selfrepair_active,scores={health=9..12,cooldown_a=15}] run eff
 execute as @s[tag=selfrepair_active,scores={health=5..8,cooldown_a=15}] run effect give @s minecraft:absorption 4000 2 true
 execute as @s[tag=selfrepair_active,scores={health=1..4,cooldown_a=15}] run effect give @s minecraft:absorption 4000 3 true
 
-execute as @s[tag=selfrepair_active,scores={cooldown_a=14}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▁▁▁▁▁▁▁ ","color":"dark_red"},{"text":" 7.1%","color":"dark_red"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=13}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▁▁▂▂▁▁▂ ","color":"dark_red"},{"text":"11.7%","color":"dark_red"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=12}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▁▁▂▂▁▂▅ ","color":"dark_red"},{"text":"19.3%","color":"dark_red"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=11}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▂▁▃▂▁▃▅ ","color":"red"},{"text":"29.2%","color":"red"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=10}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▂▃▃▂▁▃▅ ","color":"red"},{"text":"33.5%","color":"red"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=9}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▂▃▇▂▁▃▆ ","color":"gold"},{"text":"37.0%","color":"gold"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=8}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▂▄▇▄▂▃▆ ","color":"gold"},{"text":"46.7%","color":"gold"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=7}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▂▅▇▆▄▃█ ","color":"gold"},{"text":"54.3%","color":"gold"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=6}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▄▅▇▇▆▃█ ","color":"gold"},{"text":"58.9%","color":"gold"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=5}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▅▅▇▇▆▅█ ","color":"yellow"},{"text":"64.0%","color":"yellow"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=4}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▇▅▇█▆▅█ ","color":"yellow"},{"text":"78.8%","color":"yellow"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=3}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▇▆▇█▆▆█ ","color":"green"},{"text":"86.1%","color":"green"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=2}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▇▇██▇▆█ ","color":"green"},{"text":"91.1%","color":"green"}]
-execute as @s[tag=selfrepair_active,scores={cooldown_a=1}] run title @s actionbar  ["",{"text":"Repairing... ","color":"gray"},{"text":"      ███████ ","color":"green"},{"text":"99.9%","color":"green"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=14}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▁▁▁▁▁▁▁ ","color":"dark_red"},{"text":" 7.1%","color":"dark_red"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=13}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▁▁▂▂▁▁▂ ","color":"dark_red"},{"text":"11.7%","color":"dark_red"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=12}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▁▁▂▂▁▂▅ ","color":"dark_red"},{"text":"19.3%","color":"dark_red"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=11}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▂▁▃▂▁▃▅ ","color":"red"},{"text":"29.2%","color":"red"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=10}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▂▃▃▂▁▃▅ ","color":"red"},{"text":"33.5%","color":"red"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=9}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▂▃▇▂▁▃▆ ","color":"gold"},{"text":"37.0%","color":"gold"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=8}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▂▄▇▄▂▃▆ ","color":"gold"},{"text":"46.7%","color":"gold"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=7}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▂▅▇▆▄▃█ ","color":"gold"},{"text":"54.3%","color":"gold"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=6}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▄▅▇▇▆▃█ ","color":"gold"},{"text":"58.9%","color":"gold"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=5}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▅▅▇▇▆▅█ ","color":"yellow"},{"text":"64.0%","color":"yellow"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=4}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▇▅▇█▆▅█ ","color":"yellow"},{"text":"78.8%","color":"yellow"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=3}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▇▆▇█▆▆█ ","color":"green"},{"text":"86.1%","color":"green"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=2}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ▇▇██▇▆█ ","color":"green"},{"text":"91.1%","color":"green"}]
+execute as @s[tag=selfrepair_active,scores={cooldown_a=1}] run title @s actionbar ["",{"text":"Repairing... ","color":"gray"},{"text":"      ███████ ","color":"green"},{"text":"99.9%","color":"green"}]
 
 
 
@@ -59,17 +59,17 @@ execute as @s[tag=selfrepair_active,scores={cooldown_a=0,health=1..2}] run score
 
 
 
-# calculate at what cooldown_a the "SelfRepair completed" message should stop displaying
+# calculate at what cooldown_a the "SelfRepair complete" message should stop displaying
 # result stored in clipboad2
 execute as @s[tag=selfrepair_active,tag=selfrepair_cooldown] run scoreboard players set @s count 6
 execute as @s[tag=selfrepair_active,tag=selfrepair_cooldown] run scoreboard players operation @s clipboad2 = @s cooldown_a
 execute as @s[tag=selfrepair_active,tag=selfrepair_cooldown] run scoreboard players operation @s clipboad2 -= @s count
 
-# store snapshot of the cooldown_a to display the correct "SelfRepair completed" message
+# store snapshot of the cooldown_a to display the correct "SelfRepair complete" message
 # result stored in count
 execute as @s[tag=selfrepair_active,tag=selfrepair_cooldown] run scoreboard players operation @s count = @s cooldown_a
 
-# initiate clipboad1 as 0 for the "SelfRepair completed" message to display
+# initiate clipboad1 as 0 for the "SelfRepair complete" message to display
 execute as @s[tag=selfrepair_active,tag=selfrepair_cooldown] run scoreboard players set @s clipboad1 0
 
 
@@ -86,18 +86,18 @@ execute as @s[tag=selfrepair_active,tag=selfrepair_cooldown,scores={health=1..2}
 execute as @s[tag=selfrepair_cooldown,tag=selfrepair_active] run tag @s remove selfrepair_active
 
 
-# compare the cooldown_a with the clipboad2 to check if the "SelfRepair completed" message should stop displaying
+# compare the cooldown_a with the clipboad2 to check if the "SelfRepair complete" message should stop displaying
 # result stored in clipboad1, falsty: keep msg displayed, truthy: stop displaying
 # checking clipboad1 to prevent the calculation from running the second time
 execute as @s[tag=selfrepair_cooldown,scores={clipboad1=0..,cooldown_a=1..}] run scoreboard players operation @s clipboad1 = @s clipboad2
 execute as @s[tag=selfrepair_cooldown,scores={clipboad1=0..,cooldown_a=1..}] run scoreboard players operation @s clipboad1 > @s cooldown_a
 execute as @s[tag=selfrepair_cooldown,scores={clipboad1=0..,cooldown_a=1..}] run scoreboard players operation @s clipboad1 %= @s cooldown_a
 
-# if clipboad1 is truthy, set them to -1 to stop displaying the "SelfRepair completed" message
+# if clipboad1 is truthy, set them to -1 to stop displaying the "SelfRepair complete" message
 execute as @s[tag=selfrepair_cooldown,scores={clipboad1=1..,cooldown_a=1..}] run scoreboard players set @s clipboad1 -1
 
 
-execute as @s[tag=selfrepair_cooldown,scores={clipboad1=0}] run title @s actionbar ["",{"text":"SelfRepair completed, regenerating nano materials (ETR:","color":"gray"},{"score":{"name":"@s","objective":"count"},"color":"gray"},{"text":"e+6µs)","color":"gray"}]
+execute as @s[tag=selfrepair_cooldown,scores={clipboad1=0}] run title @s actionbar ["",{"text":"SelfRepair complete, regenerating nano materials (ETR:","color":"gray"},{"score":{"name":"@s","objective":"count"},"color":"gray"},{"text":"e+6µs)","color":"gray"}]
 
 # when cooldown ends
 execute as @s[tag=selfrepair_cooldown,scores={cooldown_a=0}] run tag @s remove selfrepair
